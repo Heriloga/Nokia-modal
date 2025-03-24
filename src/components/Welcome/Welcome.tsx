@@ -12,7 +12,7 @@ function Welcome(): ReactElement {
     <div className=" ml-4 mr-4 bg-white flex flex-col justify-center items-center gap-4 p-5 rounded text-center relative">
       <img
         src={abstractShapeImage}
-        className="animate-hover-anim absolute bottom-[-15rem] left-49 w-48 md:bottom-[9rem] lg:left-[29rem] lg:w-64"
+        className="animate-hover-anim absolute bottom-[-15rem] left-49 w-48 lg:bottom-[9rem] lg:left-[29rem] lg:w-64"
       />
       <div>
         <h1 className="text-xl">
