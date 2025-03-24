@@ -5,7 +5,7 @@ import Layout from "./pages/Layout";
 import Docs from "./pages/Docs";
 import NotFound from "./pages/NotFound";
 
-const App = () => {
+function App() {
   return (
     <>
       <BrowserRouter>
@@ -21,6 +21,6 @@ const App = () => {
       <GlobalModal />
     </>
   );
-};
+}
 
 export default App;

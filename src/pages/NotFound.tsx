@@ -1,4 +1,4 @@
-const NotFound = () => {
+function NotFound() {
   return (
     <div className="">
       <h1 className="text-xl font-bold bg-white p-2 rounded-xl">
@@ -6,6 +6,6 @@ const NotFound = () => {
       </h1>
     </div>
   );
-};
+}
 
 export default NotFound;
