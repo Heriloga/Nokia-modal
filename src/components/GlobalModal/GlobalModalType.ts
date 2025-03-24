@@ -5,7 +5,7 @@ type Title = JSX.Element | string;
 
 export interface Options {
   isCloseButtonVisible?: boolean;
-  zIndex: number;
+  zIndex?: number;
 }
 
 export type GlobalModalType = {
