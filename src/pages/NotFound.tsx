@@ -1,4 +1,6 @@
-function NotFound() {
+import { ReactElement } from "react";
+
+function NotFound(): ReactElement {
   return (
     <div className="">
       <h1 className="text-xl font-bold bg-white p-2 rounded-xl">
